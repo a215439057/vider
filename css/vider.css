@@ -1,0 +1,429 @@
+	h1, p, a, img, * {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	}
+
+	a{
+		color:#000;
+		font-size: 100%;
+		text-decoration: none;
+	}
+
+	img {
+    	border: medium none;
+    	vertical-align: middle;
+	}
+
+	* {
+    	margin: 0;
+    	padding-top: 0;
+	}
+
+	body {
+   	 	color: #000;
+		font-size: 100%;
+		margin: 0px;
+		width: 100%;
+	}
+	.cen{
+		margin:0 auto;
+		max-width: 94%;
+	}
+	.clear{
+		clear: both;
+	}
+	.vider h5{
+		text-align: center;
+		font-size: 24px;
+		font-weight: 400;
+		padding-bottom: 40px; 
+	}
+	.vider .separator{
+		background-color: #000000;
+	    border-color: #000000;
+	    color: #000000;
+	    height: 3px;
+	    width: 60px;
+	    margin: 0 auto;
+	    margin-bottom: 40px; 
+	}
+	.whit{
+		color: #000;
+	}
+	.vider{
+		width: 100%;
+		
+	}
+		.vider .top{
+			width: 100%; 
+			height: 120px;
+			position: fixed;
+			background-color: transparent;
+			z-index: 100;
+		}
+		.vider .tob{
+			padding:2% 0;
+		}
+
+		.vider .logo{
+			float: left;
+			margin-right: 8%;
+			width:20%;
+			font-size: 1.6rem;
+		}
+		.vider .mune{
+			width: 50%;
+			text-align: center;
+			float: left;
+			color: #999;
+			font-size: 1.2rem;
+			line-height: 2.5rem;
+		}
+		.vider .ico{
+			float: right;
+		}
+		.vider .mune ul li{
+			float: left;
+			margin:0 5%;
+			cursor:pointer; 
+		}
+		.vider .mune ul li:hover{
+			color: #000;
+			border-bottom: 1px solid #000;
+		}
+		.vider .ico ul li{
+			float: left;
+			width: 30px;	
+			margin: 2px;
+			margin-right:10px;
+			border-radius: 20px;
+		}
+		.vider .top .ico ul li{
+			background-color: #999;
+		}
+		.vider .ico ul li:hover{
+			background-color: #333;
+		}
+		.vider .chat{
+			content: url("../images/what.png");
+		}
+		.vider .face{
+			content: url("../images/face.png");
+		}
+		.vider .twe{
+			content: url("../images/twe.png");
+		}				
+	.vider .banner{
+		height: 450px;
+		overflow: hidden;
+		margin-bottom: 100px;
+	}	
+		.vider .banner img{
+			width: 100%;
+		}
+		.vider .main_1{
+			margin: 0 auto;
+			width: 65%;
+			text-align: center;
+
+		}
+			.vider .main_1 h3{
+				font-size: 2.5rem;
+			}
+			.vider .main_1 p{
+				line-height: 30px;
+				padding-bottom: 150px;
+				width: 80%;
+				font-weight: 520;
+				margin: 0 auto;
+			}
+	.vider .main_2{
+		margin: 0 auto;
+		width: 65%;
+		text-align: center;
+		border-top: 1px solid #999;
+		padding-top: 20px;
+		padding-bottom: 140px;
+	}
+		.vider .main_2 h3{
+			padding-bottom: 100px;
+			font-size: 2rem;
+			font-weight:300;
+		}
+		.vider .main_2 ul li{
+			float: left;
+			width: 30%;	
+		}
+		.vider .main_2 .le{
+			padding-left: 5%;
+		}
+			.vider .main_2 ul li h4{
+				font-size: 1.8rem;
+				font-weight: 450;
+				padding-bottom: 20px;
+			}
+			.vider .main_2 ul li p{
+				color: #999;
+				line-height: 30px;
+			}
+	.vider .main_3{
+		padding-left: 15px;
+		padding-bottom: 60px;
+	}
+		.vider .main_3 ul {
+			padding-bottom:20px;
+		}	
+			.vider .main_3 ul li {
+				width: 32%;
+				float: left;
+				height: 250px;
+				text-align: center;	
+				position: relative;
+				overflow: hidden;
+			}
+
+			.vider .main_3  .map{
+				background: url('../images/1.jpg') no-repeat center;
+				background-size: 100%;
+			}
+			
+				.vider .main_3 ul li .maep{
+					width: 100%;
+					top: 0;
+					height: 100%;	
+					position: absolute;	
+					transition: all 1s ease;
+			   	 	-webkit-transition: all 1s ease;
+			    	-moz-transition: all 1s ease;
+			   		-o-transition: all 1s ease;
+				}
+					.vider .main_3 ul li .maep p{
+						font: 700 42px "Arial"," Helvetica"," sans-serif","Open Sans","Arial",sans-serif;
+						color: #fff;
+						padding-top: 20%;
+					}
+					.vider .main_3 ul li:hover .maep{
+						top: -100%;
+					}	
+				.vider .main_3 ul li .mape{
+					width: 100%;
+					position: absolute;
+					height: 100%;
+					top: 100%;
+				    color: #fff;
+				    transition: all 1s ease;
+			   	 	-webkit-transition: all 1s ease;
+			    	-moz-transition: all 1s ease;
+			   		-o-transition: all 1s ease;
+				}	
+					.vider .main_3 ul li .mape p{
+						padding-top: 25%;
+						font: 200 18px "Arial"," Helvetica"," sans-serif","Open Sans","Arial",sans-serif;
+					}
+
+					.vider .main_3 ul li:hover .mape {
+						top: 0;
+					}	
+			
+			.vider .main_3 .oblique{
+				margin-right: 20px;
+			}
+	.vider .main_4{
+		background-color: #000;
+		width: 100%;
+		height: 400px;
+		margin-bottom: 60px;
+		
+	}
+		.vider .main_4 p{
+			width: 35%;
+			color: #fff;
+			font-size: 40px;
+			padding-top: 8%;
+			padding-left: 10%;
+		}
+	.vider .main_5{
+		padding-left: 15px;
+		padding-bottom: 5%;
+		margin: 0 auto;
+    	max-width: 94%;
+	}
+
+		.vider .main_5 ul {
+			padding-bottom:20px;
+			padding-left: 2%;
+		}	
+			.vider .main_5 ul li {
+				width: 23%;
+				float: left;
+				height: 250px;
+				text-align: center;	
+				position: relative;
+				overflow: hidden;
+			}	
+		.vider .main_5 .oblique{
+			margin-right: 2%;
+		}
+		.vider .main_5  .map{
+			background: url('../images/1.jpg') no-repeat center;
+			background-size: 100%;
+		}
+		
+			.vider .main_5 ul li .maep{
+				width: 100%;
+				height: 100%;	
+				position: absolute;	
+				transition: all 600ms ease;
+		   	 	-webkit-transition: all 600ms ease;
+		    	-moz-transition: all 600ms ease;
+		   		-o-transition: all 600ms ease;
+			}
+				.vider .main_5 ul li:hover .maep{
+					top: -100%;
+				}	
+				.vider .main_5 ul li .mape{
+					width: 100%;
+					opacity: 0;
+					height: 100%;
+				    color: #fff;
+				    background-color: #000;
+				    transition: all 1s ease;
+			   	 	-webkit-transition: all 1s ease;
+			    	-moz-transition: all 1s ease;
+			   		-o-transition: all 1s ease;
+				}	
+					.vider .main_5 ul li .mape p{
+						padding-top: 25%;
+						text-align: center;
+						font: 200 18px "Arial"," Helvetica"," sans-serif","Open Sans","Arial",sans-serif;
+					}
+
+				.vider .main_5 ul li:hover .mape {
+					opacity: 0.8;
+				}	
+		.vider .main_5 .butn{
+			text-align: center;
+			display: block;
+			padding-top: 25px;
+			padding-bottom: 120px;
+			cursor:pointer; 
+		}
+			.vider .main_5 .butn a{
+				padding: 15px 10px;
+				border:1px solid #000;
+			}
+	.vider .bootm{
+		text-align: center;
+		padding-bottom: 4%;
+	}
+
+		.vider .bootm .for{
+			line-height: 30px;
+			font-weight: 550;
+			margin: 0 auto;
+			padding-bottom: 5%;
+		}
+		.vider .bootm ul{
+			width: 65%;
+			margin: 0 auto;
+			padding-left: 4%; 
+		}
+			.vider .bootm ul li{
+				width: 20%;
+				overflow: hidden;
+				float: left;
+				text-align: left;
+			}
+				.vider .bootm ul li img{
+					width:100%;
+				}
+		.vider .bootm .pos{
+			padding-right:5%;
+		}
+			.vider .bootm h4{
+				padding:15px 0;
+				font-size: 16px;
+				font-weight: 600;
+			}
+			.vider .bootm p{
+				padding:14px 0;
+				font-size: 14px;
+				color: #7a7a7a;
+			}
+	.vider .botm{
+		width: 100%;
+		background-color: #000;
+	}
+	.vider .botm h5{
+
+		color: #fff;
+		padding-top:100px;
+	}
+	.vider .botm .separator{
+		background-color: #fff;
+	}
+	.vider .botm .faq{
+		width: 100%;
+		max-width: 1160px;
+		margin: 0 auto;	
+	}
+	.vider .botm .faq .pue{
+		color: #fff;
+		float: left;
+		width: 50%;
+	}
+	.vider .botm .faq ul li{
+		float: left;	
+	}
+	.vider .botm .faq ul{
+		padding-left: 8%;
+	}
+	.vider .botm .faq ul li h3{
+		font-size: 26px;
+		padding-bottom: 30px;
+	}
+	.vider .botm .faq ul li p{
+		padding-bottom: 60px;
+		font-size:16px;
+	}
+	.vider .botm .faq .pu:before{
+		content:url('../images/faq.png');
+		width: 10%;
+		float: left;
+		line-height: 50px;
+	}
+	.vider .green{
+		background-color: #444;
+		width: 100%;
+	}
+	.vider .gre{
+		width: 100%;
+		max-width: 1160px;
+		margin: 0 auto;
+		padding-left: 8%;
+	}
+	.vider .green .gem{
+		width: 33%;
+		float: left;
+		padding:8% 0;
+	}
+	.vider .green .gem h3{
+		font-weight: 500;
+		font-size:14px;
+		color: #fff;
+		padding-bottom: 20px;
+	}	
+	.vider .green .gem p{
+		font-size: 12px;
+		color: #a2a2a2;
+		line-height: 20px;
+	}
+	.vider .green .ico  ul li{
+		border:1px solid #a2a2a2;
+		border-radius: 0;
+		color: #a2a2a2;
+	}
+	.vider .ico ul li:hover{
+		background-color: #333;
+	}
