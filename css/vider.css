@@ -53,7 +53,7 @@
 	}
 	.vider{
 		width: 100%;
-		
+		overflow: hidden;
 	}
 		.vider .top{
 			width: 100%; 
@@ -81,7 +81,7 @@
 			line-height: 2.5rem;
 		}
 		.vider .ico{
-			float: right;
+			float: left;
 		}
 		.vider .mune ul li{
 			float: left;
@@ -92,6 +92,44 @@
 			color: #000;
 			border-bottom: 1px solid #000;
 		}
+		.vider  .menu_2{
+			cursor: pointer;
+			width: 30px;
+	    	height: 20px;
+	    	display: none;
+	    	position: fixed;
+	    	right: 10px;
+	    	top: 20px;
+	    	z-index: 6;
+		}
+		
+			.vider  .menu_2 span{
+				display: block;
+				background-color: #000;
+			    margin-bottom: 6px;
+			    height: 3px;
+			    width: 20px;
+			    left: 0;
+			    cursor: pointer;
+			}
+		.vider .men{
+				position:absolute;
+				left: -280px;
+				width: 280px;
+				height: 100vh; 
+				background-color: #0e0e0e;
+				z-index: 199;
+				transition: all 0.5s;	
+			}
+		.vider  .men ul li{
+			padding: 8px 10px !important;
+			font-size: 18px;
+			width: 70%;
+			color: #fff;
+		}	
+		.vider .men .org{
+			background-color:#fab000;
+		}					
 		.vider .ico ul li{
 			float: left;
 			width: 30px;	
@@ -118,6 +156,7 @@
 		height: 450px;
 		overflow: hidden;
 		margin-bottom: 100px;
+		width: 100%;
 	}	
 		.vider .banner img{
 			width: 100%;
@@ -183,11 +222,30 @@
 				overflow: hidden;
 			}
 
-			.vider .main_3  .map{
-				background: url('../images/1.jpg') no-repeat center;
+			.vider .main_3  .map_1{
+				background: url('../images/f1.jpg') no-repeat center;
 				background-size: 100%;
 			}
-			
+			.vider .main_3  .map_2{
+				background: url('../images/f2.jpg') no-repeat center;
+				background-size: 100%;
+			}
+			.vider .main_3  .map_3{
+				background: url('../images/f3.jpg') no-repeat center;
+				background-size: 100%;
+			}
+			.vider .main_3  .map_4{
+				background: url('../images/f4.jpg') no-repeat center;
+				background-size: 100%;
+			}
+			.vider .main_3  .map_5{
+				background: url('../images/f5.jpg') no-repeat center;
+				background-size: 100%;
+			}
+			.vider .main_3  .map_6{
+				background: url('../images/f6.jpg') no-repeat center;
+				background-size: 100%;
+			}			
 				.vider .main_3 ul li .maep{
 					width: 100%;
 					top: 0;
@@ -200,7 +258,7 @@
 				}
 					.vider .main_3 ul li .maep p{
 						font: 700 42px "Arial"," Helvetica"," sans-serif","Open Sans","Arial",sans-serif;
-						color: #fff;
+						color: #000;
 						padding-top: 20%;
 					}
 					.vider .main_3 ul li:hover .maep{
@@ -211,7 +269,7 @@
 					position: absolute;
 					height: 100%;
 					top: 100%;
-				    color: #fff;
+				    color: #000;
 				    transition: all 1s ease;
 			   	 	-webkit-transition: all 1s ease;
 			    	-moz-transition: all 1s ease;
@@ -265,11 +323,38 @@
 		.vider .main_5 .oblique{
 			margin-right: 2%;
 		}
-		.vider .main_5  .map{
-			background: url('../images/1.jpg') no-repeat center;
+		.vider .main_5  .map_1{
+			background: url('../images/d1.jpg') no-repeat center;
 			background-size: 100%;
 		}
-		
+		.vider .main_5  .map_2{
+			background: url('../images/d2.jpg') no-repeat center;
+			background-size: 100%;
+		}	
+		.vider .main_5  .map_3{
+			background: url('../images/d3.jpg') no-repeat center;
+			background-size: 100%;
+		}					
+		.vider .main_5  .map_4{
+			background: url('../images/d4.jpg') no-repeat center;
+			background-size: 100%;
+		}
+		.vider .main_5  .map_5{
+			background: url('../images/d5.jpg') no-repeat center;
+			background-size: 100%;
+		}
+		.vider .main_5  .map_6{
+			background: url('../images/d6.jpg') no-repeat center;
+			background-size: 100%;
+		}
+		.vider .main_5  .map_7{
+			background: url('../images/d7.jpg') no-repeat center;
+			background-size: 100%;
+		}
+		.vider .main_5  .map_8{
+			background: url('../images/d8.jpg') no-repeat center;
+			background-size: 100%;
+		}
 			.vider .main_5 ul li .maep{
 				width: 100%;
 				height: 100%;	
@@ -307,11 +392,12 @@
 			display: block;
 			padding-top: 25px;
 			padding-bottom: 120px;
-			cursor:pointer; 
+			
 		}
 			.vider .main_5 .butn a{
 				padding: 15px 10px;
 				border:1px solid #000;
+				cursor:pointer; 
 			}
 	.vider .bootm{
 		text-align: center;

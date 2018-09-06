@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px)  {
+	.vider .mune,.ico{
+		display: none;
+	}
+	.vider  .menu_2{
+		display: block;
+	}
+	.vider .main_2 ul li{
+		width: 100%;
+	}
+	.vider .main_3{
+		padding-left: 5px;
+	}
+	.vider .main_3 ul li{
+		width: 100%;
+		padding-bottom:40px;
+		height: 210px;
+	}
+	.vider .main_4 {
+		height: 150px;
+	}
+	.vider .main_4 p{
+		width: 100%;
+	}
+	.vider .main_5{
+		padding-left: 3px;
+		margin: 0;
+	}
+	.vider .main_5 ul li{
+		width: 100%;
+		height: 250px;
+	}
+}

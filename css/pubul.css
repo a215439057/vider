@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1280px)  {
+	.vider .top{
+		height:80px;
+	}
+	.vider .logo{
+		margin:0;
+		width: 25%;
+	}
+	.vider .mune{
+		width: 60%;
+	}
+	.vider .banner{
+		height: 250px;
+	}
+	.vider .main_3 ul{
+	}
+	.vider .main_3 .oblique{
+		margin-right: 10px;
+
+	}
+	.vider .main_3 ul li{
+		height: 150px;
+	}
+	.vider .main_3 ul li .maep p{
+		font-size: 24px;
+	}
+	.vider .main_4{
+		height: 200px;
+	}
+	.vider .main_4 p{
+		font-size: 30px;
+		padding-top: 6%;
+	}
+	.vider .main_5 ul li{
+		height: 150px;
+	}
+	.vider .bootm ul{
+		width: 95%;
+	}
+	.vider .botm .faq ul{
+		padding-left:4%;
+	}
+}
