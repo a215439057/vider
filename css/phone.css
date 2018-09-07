@@ -7,6 +7,11 @@
 	}
 	.vider .main_2 ul li{
 		width: 100%;
+		padding-bottom: 40px;
+	}
+	.vider .main_2 .le
+	{
+		padding-left: 0;
 	}
 	.vider .main_3{
 		padding-left: 5px;
@@ -29,5 +34,20 @@
 	.vider .main_5 ul li{
 		width: 100%;
 		height: 250px;
+	}
+	.vider .bootm .for{
+		width: 80%;
+	}
+	.vider .bootm ul li {
+		width: 90%;
+	}
+	.vider .botm .faq .pue{
+		width: 100%;
+	}
+	.vider .green .gem{
+		width: 100%;
+	}
+	.vider .green .ico{
+		display: block;
 	}
 }

@@ -1,30 +1,32 @@
 window.onload=function(){
+	var men =document.getElementById('men');
 	document.getElementById('menu_2').onclick=function(){
-		if (document.getElementById('men').offsetLeft=="-280") 
+		if (men.clientHeight=="0") 
 			{
-				document.getElementById('men').style ="left:0px";
+				
+				men.style.height ="20vh";
+				men.style.opacity='1';
 			}
-		else{
-			document.getElementById('men').style ="left:-280px";
+		else{			
+			men.style.height ="0";
+			men.style.opacity='0';
 		}
-	}	
+	}
+
 }
 window.onscroll=function()
-{	
-	var top =document.getElementById("top");
-	if ( window.pageYOffset != '0') {
-		top.style.background="#fff";
-	}
-	if(window.pageYOffset == '0'){
-		document.getElementById("top").style.background="transparent";
-	}
-	document.getElementById('menu_2').onclick=function(){
-		if (document.getElementById('men').offsetLeft=="-280") 
-			{
-				document.getElementById('men').style ="left:0px";
-			}
+{	var top =document.getElementById("top");
+	if (document.body.clientWidth > 768) {
+		
+		if ( window.pageYOffset == '0') {
+			document.getElementById("top").style.background="transparent";
+		}
 		else{
-			document.getElementById('men').style ="left:-280px";
+			top.style.background="#fff";
 		}
 	}
+	else{
+		top.style.position ="absolute";
+	}	
+
 }
