@@ -50,4 +50,23 @@
 	.vider .green .ico{
 		display: block;
 	}
+	.vider .logo{
+		width: 60%;
+	}
+	.vider .ban{
+		top: 6%;
+	}
+	.vider .ban h3{
+		font-size: 2rem;
+	}
+	.vider .ban p{
+		font-size: 1rem;
+	}
+	.vider .wpi .wep .wpio{
+		width: 100%;
+	}
+	.vider .wpi .wep .wpie{
+		width:100%;
+		padding-top: 60px;
+	}
 }

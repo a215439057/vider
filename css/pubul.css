@@ -40,4 +40,13 @@
 	.vider .botm .faq ul{
 		padding-left:4%;
 	}
+	.vider .ban{
+		top: 10%; 
+	}
+	.vider .wpi .wep{
+		width: 80%;
+	}
+	.vider .wpi .wep .wpie{
+		padding-top: 0;
+	}
 }
