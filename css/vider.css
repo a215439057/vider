@@ -251,6 +251,7 @@
 			.vider .main_3  .map_1{
 				background: url('../images/f1.jpg') no-repeat center;
 				background-size: 100%;
+				background-color: #000;
 			}
 			.vider .main_3  .map_2{
 				background: url('../images/f2.jpg') no-repeat center;
@@ -284,7 +285,7 @@
 				}
 					.vider .main_3 ul li .maep p{
 						font: 700 42px "Arial"," Helvetica"," sans-serif","Open Sans","Arial",sans-serif;
-						color: #000;
+						color: #fff;
 						padding-top: 20%;
 					}
 					.vider .main_3 ul li:hover .maep{
@@ -295,7 +296,7 @@
 					position: absolute;
 					height: 100%;
 					top: 100%;
-				    color: #000;
+				    color: #fff;
 				    transition: all 1s ease;
 			   	 	-webkit-transition: all 1s ease;
 			    	-moz-transition: all 1s ease;
@@ -333,11 +334,10 @@
 		margin: 0 auto;
     	max-width: 94%;
 	}
+		.vider .main_5 ul{
+			padding-bottom: 30px;
+		}
 
-		.vider .main_5 ul {
-			padding-bottom:20px;
-			padding-left: 2%;
-		}	
 			.vider .main_5 ul li {
 				width: 23%;
 				float: left;
@@ -381,6 +381,26 @@
 			background: url('../images/d8.jpg') no-repeat center;
 			background-size: 100%;
 		}
+		.vider .main_5  .map_9{
+			background: url('../images/d9.jpg') no-repeat center;
+			background-size: 100%;
+		}
+		.vider .main_5  .map_0{
+			background: url('../images/d0.jpg') no-repeat center;
+			background-size: 100%;
+		}
+		.vider .main_5  .map_10{
+			background: url('../images/d10.jpg') no-repeat center;
+			background-size: 100%;
+		}
+		.vider .main_5  .map_11{
+			background: url('../images/d11.jpg') no-repeat center;
+			background-size: 100%;
+		}			
+		.vider .main_5  .map_12{
+			background: url('../images/d12.jpg') no-repeat center;
+			background-size: 100%;
+		}									
 			.vider .main_5 ul li .maep{
 				width: 100%;
 				height: 100%;	
@@ -420,7 +440,9 @@
 			padding-bottom: 120px;
 			
 		}
-
+.vider .bn .bun{
+	padding: 12px;
+}
 	.vider .bootm{
 		text-align: center;
 		padding-bottom: 4%;
@@ -433,9 +455,8 @@
 			padding-bottom: 5%;
 		}
 		.vider .bootm ul{
-			width: 65%;
+			max-width: 1160px;
 			margin: 0 auto;
-			padding-left: 4%; 
 		}
 			.vider .bootm ul li{
 				width: 20%;
@@ -591,9 +612,25 @@
 	}	
 	.vider .me{
 		padding-bottom: 150px;
+		padding-left: 15px;
+	}
+	.vider .portfoltio ul li{
+		width: 18%;
+		height: 160px;
+	}
+	.vider .portfoltio{
+		padding-bottom: 20px;
+	}	
+	.vider .portfoltio .separator{
+		background-color: #e2e2e2;
+	}	
+	.vider .portfoltio .me{
+		padding-bottom: 100px;
 	}
 	.vider .lo{
 		margin: 0 auto;
+		width: 160px;
+		padding-bottom: 100px;
 	}
 	.vider .more{
 		background: #444;
