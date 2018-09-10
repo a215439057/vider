@@ -578,18 +578,17 @@
 	.vider .wpi .wep .wpio{
 		width: 49%;
 		float: left;
-		padding-right: 2%;
+		padding-right: 10%;
 		overflow: hidden;
 	}
 	.vider .wpi .wep .app{
-		width: 40%;
 		padding-right:6%;
 	}
 	.vider .wpi .wpio img{
 		width: 100%;
 	}	
 	.vider .wpi .wep .wpie{
-		width: 49%;
+		width: 30%;
 		float: left;
 		text-align: center;
 		padding-top: 5%;
