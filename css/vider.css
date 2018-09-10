@@ -26,6 +26,10 @@
 		margin: 0px;
 		width: 100%;
 	}
+	.xian {
+		border-bottom: 1px solid #fff;
+		width: 100%;
+	}
 	.cen{
 		margin:0 auto;
 		max-width: 94%;
@@ -66,13 +70,14 @@
 
 		.vider .logo{
 			float: left;
-			margin-right: 8%;
+			margin-right: 6%;
 			width:20%;
 			font-size: 1.6rem;
 			font-weight: bold;
+			color: #fff;
 		}
 		.vider .mune{
-			width: 50%;
+			width:65%;
 			text-align: center;
 			float: left;
 			color: #999;
@@ -84,16 +89,16 @@
 		}
 		.vider .mune ul li{
 			float: left;
-			margin:0 5%;
+			margin:0 1%;
 			cursor:pointer; 
 			color: #999;
+			font-size: 14px;
 		}
 		.vider .mune ul li:hover{
-			color: #000;
 			border-bottom: 1px solid #000;
 		}
 		.vider .mune  .whit{
-		color: #000;
+			color: #fff;
 		}
 		.vider  .menu_2{
 			cursor: pointer;
@@ -536,10 +541,9 @@
 		width: 100%;
 		max-width: 1160px;
 		margin: 0 auto;
-		padding-left: 8%;
 	}
 	.vider .green .gem{
-		width: 33%;
+		width: 24%;
 		float: left;
 		padding:8% 0;
 	}
@@ -562,25 +566,30 @@
 	.vider .ico ul li:hover{
 		background-color: #333;
 	}
+
 	.vider .wpi{
 		width: 100%;
 		padding-bottom: 120px;
 	}
 	.vider .wpi .wep{
-		width: 60%;
+		width: 70%;
 		margin:0 auto;
 	}	
 	.vider .wpi .wep .wpio{
-		width: 59%;
+		width: 49%;
 		float: left;
 		padding-right: 2%;
 		overflow: hidden;
+	}
+	.vider .wpi .wep .app{
+		width: 40%;
+		padding-right:6%;
 	}
 	.vider .wpi .wpio img{
 		width: 100%;
 	}	
 	.vider .wpi .wep .wpie{
-		width: 32%;
+		width: 49%;
 		float: left;
 		text-align: center;
 		padding-top: 5%;
@@ -592,6 +601,24 @@
 	.vider .wpi .wep .wpie p{
 		color: #808080;
 		padding:30px 0;
+	}
+	.vider .wpi .wep .ab1{
+		width: 40%;
+		padding-top: 0;		
+	}
+	.vider .abb{
+		text-align: center;
+		padding-bottom: 20px;
+		font-size: 20px;
+		width: 60%;
+		margin: 0 auto;		
+	}
+	.vider .abb h3{
+		font-weight: 400;
+	}		
+	.vider .wpi .wep .ab1 p{
+		padding-top: 0;
+		font-size: 20px;
 	}	
 	.vider  .bun{
 		padding: 6px;
@@ -600,24 +627,50 @@
 		cursor: pointer;
 		text-align: center;
 	}
-	.vider .wp{
-		background: #000;
-		width: 100%;
-		height: 150px;
-	    margin-bottom: 100px;
+	.vider .bac{
+		z-index: 2;
+		background:#fff url("../images/c2.jpg") no-repeat fixed center center;
+		position: relative;
+    	top: 0px;
+    	left: 0px;
+    	height: 300px;
+    	overflow: hidden;
+    	margin-bottom: 40px;
 	}
+	.vider .b2{	
+		background-image: url("../images/b2.jpg");
+	}
+	.vider .b4{	
+		background-image: url("../images/b4.jpg");
+	}
+	.vider .a2{	
+		background-image: url("../images/a2.jpg");
+	}
+	.vider .a4{	
+		background-image: url("../images/a4.jpg");
+	}				
+		.vider .bac .wp{
+			background: #000000;
+			opacity: 0.3;
+	    	position: absolute;
+	    	top: 0px;
+	    	left: 0px;
+	    	width: 100%;
+	    	height: 100%;
+	   		z-index: 1;
+		}
 	.vider .separ{
     	border-bottom: 1px solid #e2e2e2;
 	}
 	.vider .collection{
-		padding: 140px 0;
+		padding: 100px 0;
 		text-align: center;
 	}
 	.vider .collection .separator{
 		background-color: #e2e2e2;
 	}	
 	.vider .me{
-		padding-bottom: 150px;
+		padding-bottom: 40px;
 		padding-left: 15px;
 	}
 	.vider .portfoltio ul li{
@@ -645,4 +698,20 @@
 		padding: 15px 20px; 
 		border-radius:4px;
 		display: inline;
+	}
+	.vider .abc{
+		font-size: 26px;
+		text-align: center;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+	.vider .mep{
+		width: 100%;
+		height: 300px;		
+	}
+	.vider .emal{
+		text-align: center;
+		margin: 0 auto;
+		width: 5%;
+		display: block; 
 	}

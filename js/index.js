@@ -4,7 +4,7 @@ window.onload=function(){
 		if (men.clientHeight=="0") 
 			{
 				
-				men.style.height ="20vh";
+				men.style.height ="30vh";
 				men.style.opacity='1';
 			}
 		else{			
@@ -20,9 +20,13 @@ window.onscroll=function()
 		
 		if ( window.pageYOffset == '0') {
 			document.getElementById("top").style.background="transparent";
+			document.getElementById("logo").style.color= "#fff";
+			document.getElementById("whit").style.color= "#fff";
 		}
 		else{
 			top.style.background="#fff";
+			document.getElementById("logo").style.color= "#000";
+			document.getElementById("whit").style.color= "#000";
 		}
 	}
 	else{
