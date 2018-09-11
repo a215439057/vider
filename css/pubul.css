@@ -7,12 +7,14 @@
 		font-size: 20px;
 		padding-top: 4px;
 	}
-
-	.vider .mune{
-		width: 60%;
+	.cen{
+		max-width: 98%;
 	}
-	.vider .mune ul li{
-		font-size: 12px;
+	.vider .mune{
+		width: 65%;
+	}
+	.vider .mune ul li a{
+		font-size: 10px;
 	}
 	.vider .banner{
 		height: 250px;
@@ -45,12 +47,18 @@
 	.vider .botm .faq ul{
 		padding-left:4%;
 	}
+	.vider .green{
+		padding-left: 2%;
+	}
 	.vider .ban{
 		top: 10%; 
 	}
 	.vider .wpi .wep{
 		width: 80%;
 	}
+	.vider .wpi .wep .ab1 p{
+		font-size: 14px;
+	}	
 	.vider .wpi .wep .wpie{
 		padding-top: 0;
 	}

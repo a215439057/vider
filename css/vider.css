@@ -59,7 +59,7 @@
 	}
 		.vider .top{
 			width: 100%; 
-			height: 120px;
+			height: 100px;
 			position: fixed;
 			background-color: transparent;
 			z-index: 100;
@@ -90,15 +90,63 @@
 		.vider .mune ul li{
 			float: left;
 			margin:0 1%;
-			cursor:pointer; 
 			color: #999;
-			font-size: 14px;
+		}
+		.vider .mune ul li a{
+			
+			font-size: 16px;
+			cursor:pointer; 						
+		}
+		.vider .mune ul .concepts:hover  .con{
+			display: block;
+		}
+		.vider .mune ul .brand:hover  .bra{
+			display: block;
+		}	
+		.vider .mune ul .arts:hover  .art{
+			display: block;
+		}	
+		.vider .mune ul .about:hover  .abo{
+			display: block;
+		}									
+		.vider .mune ul li ul{
+		    position: absolute;
+		    width: 200px;
+		    z-index: 12;
+		    line-height: 32px;
+		    padding: 10px 0;
+		    margin-top: 1px;	    
+		    opacity: 0.9;
+		    padding-left: 10px;
+		    display: none;
+		}	
+		.vider .mune #topp{
+			background-color: #000;
+		}	
+		.vider .mune a{
+			color: #999;
 		}
 		.vider .mune ul li:hover{
 			border-bottom: 1px solid #000;
 		}
-		.vider .mune  .whit{
+		.vider .mune  .whit a{
 			color: #fff;
+		}
+		.vider .mune ul li ul li{
+			width: 100%;
+			text-align: left;
+			padding-left: 0;
+			margin:0;
+			cursor: pointer;
+		}
+
+		#opi{
+			color: #fff;
+		}
+		.vider .mune ul li ul li:hover{
+			padding-left: 5px;
+			transition: all 1s ease;
+			border:none;
 		}
 		.vider  .menu_2{
 			cursor: pointer;
@@ -113,7 +161,7 @@
 		
 			.vider  .menu_2 span{
 				display: block;
-				background-color: #000;
+				background-color: #fff;
 			    margin-bottom: 6px;
 			    height: 3px;
 			    width: 20px;
@@ -141,8 +189,42 @@
 			width:100%;
 			color: #000;
 			border-bottom: 1px solid #000;
-			text-align: center;
-		}			
+			text-align: left;
+			float: left;
+			z-index: 6;
+		}
+		.vider  .men ul li div{
+			float: left;
+		}
+		.vider  .men ul li .conce{
+			float: none;
+			font-size: 10px;
+			display: none;
+		}
+		.vider  .men ul li .co{
+			width: 20px;
+			height: 20px;	
+			float: right;
+			display:inline-block;
+			padding-right: 20px;
+			z-index: 10;
+		}
+		.vider  .men ul li .co div{			
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;			
+		}
+		.vider  .men ul li .co div:before{
+			content: "\003E";
+			font-size: 25px;
+			line-height: 20px;
+		}	
+		.vider .men span{
+			width: 100%;
+			display: inline-block;
+			padding: 8px 10px !important;
+		}		
 		.vider .ico ul li{
 			float: left;
 			width: 30px;	
@@ -332,6 +414,21 @@
 		margin-bottom: 60px;
 		
 	}
+	.vider .main_4 h3{
+			width: 35%;
+			color: #fff;
+			font-size: 40px;
+			padding-top: 4%;
+			padding-left: 10%;
+		
+	}	
+	.vider .main_4 h4{
+			width: 35%;
+			color: #fff;
+			font-size: 26px;
+			padding-left: 10%;
+			padding-top: 40px;
+	}		
 		.vider .main_4 p{
 			width: 35%;
 			color: #fff;
@@ -601,6 +698,9 @@
 		color: #808080;
 		padding:30px 0;
 	}
+	.vider .wpi .wep .spie{
+		padding-top: 0;
+	}	
 	.vider .wpi .wep .ab1{
 		width: 40%;
 		padding-top: 0;		
@@ -626,6 +726,10 @@
 		cursor: pointer;
 		text-align: center;
 	}
+	.vider  .bun:hover{
+		background-color: #000;
+		color: #fff;
+	}
 	.vider .bac{
 		z-index: 2;
 		background:#fff url("../images/c2.jpg") no-repeat fixed center center;
@@ -635,6 +739,7 @@
     	height: 300px;
     	overflow: hidden;
     	margin-bottom: 40px;
+		background-size: 100%;    	
 	}
 	.vider .b2{	
 		background-image: url("../images/b2.jpg");
@@ -647,7 +752,16 @@
 	}
 	.vider .a4{	
 		background-image: url("../images/a4.jpg");
-	}				
+	}		
+	.vider .i2{	
+		background-image: url("../images/i2.jpg");
+	}
+	.vider .s2{	
+		background-image: url("../images/s2.jpg");
+	}	
+	.vider .l2{	
+		background-image: url("../images/l2.jpg");
+	}						
 		.vider .bac .wp{
 			background: #000000;
 			opacity: 0.3;

@@ -72,4 +72,13 @@
 		width:100%;
 		padding-top: 60px;
 	}
+	.vider .banner{
+		margin-bottom: 50px;
+	}
+	.vider .abb{
+		width: 90%;
+	}
+	.vider .bac{
+		background-size: cover;
+	}
 }
