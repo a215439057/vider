@@ -40,7 +40,7 @@ window.onload=function(){
 		}
 	}
 	document.getElementById('ar').onclick=function(){
-		if(abdoa.style.display !="block"){
+		if(arts.style.display !="block"){
 			arts.style.display="block";
 			arttt.style.transform="rotate(90deg)";
 		}
@@ -72,9 +72,12 @@ window.onscroll=function()
 			document.getElementById("art").style.background="#000";
 			document.getElementById("abo").style.background="#000";
 			document.getElementById("logo").style.color= "#fff";
-			document.getElementById("opi").style.color= "#fff";
-			document.getElementById("whit").getElementsByTagName("a")[0].style.color= "#fff";
-			
+			if(document.getElementById("whit")!=null){
+				document.getElementById("whit").getElementsByTagName("a")[0].style.color= "#fff";
+			}
+			if(document.getElementById("opi")!=null){
+				document.getElementById("opi").style.color= "#fff";
+			}					
 		}
 		else{
 			top.style.background="#fff";
@@ -83,8 +86,12 @@ window.onscroll=function()
 			document.getElementById("art").style.background="#fff";			
 			document.getElementById("abo").style.background="#fff";	
 			document.getElementById("logo").style.color= "#000";
-			document.getElementById("opi").style.color= "#000";
-			document.getElementById("whit").getElementsByTagName("a")[0].style.color= "#000";
+			if(document.getElementById("whit")!=null){
+				document.getElementById("whit").getElementsByTagName("a")[0].style.color= "#000";
+			}
+			if(document.getElementById("opi")!=null){
+				document.getElementById("opi").style.color= "#000";
+			}
 			
 		}
 	}
