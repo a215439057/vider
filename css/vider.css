@@ -47,8 +47,8 @@
 		background-color: #000000;
 	    border-color: #000000;
 	    color: #000000;
-	    height: 3px;
-	    width: 60px;
+	    height: 2px;
+	    width: 50px;
 	    margin: 0 auto;
 	    margin-bottom: 40px; 
 	}
@@ -64,6 +64,13 @@
 			background-color: transparent;
 			z-index: 100;
 		}
+	.vider .notop{
+		position:relative;
+		background-color: #fff;
+		width: 100%; 
+		height: 100px;	
+		z-index: 100;	
+	}			
 		.vider .tob{
 			padding:2% 0;
 		}
@@ -76,6 +83,14 @@
 			font-weight: bold;
 			color: #fff;
 		}
+		.vider .nologo{
+			float: left;
+			margin-right: 6%;
+			width:20%;
+			font-size: 1.6rem;
+			font-weight: bold;
+			color: #000;
+		}		
 		.vider .mune{
 			width:65%;
 			text-align: center;
@@ -232,7 +247,7 @@
 			margin-right:10px;
 			border-radius: 20px;
 		}
-		.vider .top .ico ul li{
+		.vider  .ico ul li{
 			background-color: #999;
 		}
 		.vider .ico ul li:hover{
@@ -493,13 +508,9 @@
 		.vider .main_5  .map_8{
 			background: url('../images/d8.jpg') no-repeat center;
 			background-size: 100%;
-		}
+		}		
 		.vider .main_5  .map_9{
 			background: url('../images/d9.jpg') no-repeat center;
-			background-size: 100%;
-		}
-		.vider .main_5  .map_0{
-			background: url('../images/d0.jpg') no-repeat center;
 			background-size: 100%;
 		}
 		.vider .main_5  .map_10{
@@ -536,6 +547,7 @@
 			   	 	-webkit-transition: all 1s ease;
 			    	-moz-transition: all 1s ease;
 			   		-o-transition: all 1s ease;
+			   		
 				}	
 					.vider .main_5 ul li .mape p{
 						padding-top: 25%;
@@ -699,10 +711,17 @@
 		font-weight: 400;
 		font-size: 1.5rem;
 	}
+	.vider .wpi .wep .wpie h4{
+		color: #808080;
+		padding-top:30px;
+		font-size: 20px;
+		font-weight: 400;
+	}	
 	.vider .wpi .wep .wpie p{
 		color: #808080;
 		padding:30px 0;
 		font-size: 18px;
+		font-weight: 400;
 	}
 	.vider .wpi .wep .spie{
 		padding-top: 0;
@@ -804,8 +823,7 @@
 		padding-bottom: 100px;
 	}
 	.vider .lo{
-		margin: 0 auto;
-		width: 160px;
+		text-align: center;
 		padding-bottom: 100px;
 	}
 	.vider .more{
@@ -831,4 +849,45 @@
 		margin: 0 auto;
 		width: 5%;
 		display: block; 
+	}
+	.vider .ga{
+		background-color: #eee;
+		width: 100%;
+	}
+	.vider .gal{
+		width: 98%;
+		margin:0 auto;
+		padding-top: 30px;
+	}
+	.vider .gal_1{
+		width: 68%;
+		overflow: hidden;
+		float: left;
+	}
+	.vider .gal_1 img{
+		width: 100%;
+		padding-bottom:30px;
+	}
+	.vider .gal_2{
+		width: 27%;
+		position: fixed;
+		text-align: center;
+		right: 2%;
+		margin-top: 30px;
+	}
+	.vider .gal_2 h3{
+		padding-bottom: 30px;
+	}
+	.vider .gal_2 .separator{
+    	width: 40px;
+	}
+	.vider .gal_2 h4{
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+	.vider .gal_2 p{
+		font-size: 14px;
+		padding-bottom: 30px;
+		color: #999;
+		
 	}
