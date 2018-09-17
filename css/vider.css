@@ -64,7 +64,7 @@
 			background-color: transparent;
 			z-index: 100;
 		}
-	.vider .notop{
+	 .notop{
 		position:relative;
 		background-color: #fff;
 		width: 100%; 
@@ -83,7 +83,7 @@
 			font-weight: bold;
 			color: #fff;
 		}
-		.vider .nologo{
+		 .nologo{
 			float: left;
 			margin-right: 6%;
 			width:20%;
@@ -161,6 +161,9 @@
 		.vider .mune ul li ul li:hover{
 			padding-left: 5px;
 			transition: all 1s ease;
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
 			border:none;
 		}
 		.vider  .menu_2{
@@ -675,7 +678,7 @@
 	.vider .green .ico  ul li{
 		border:1px solid #a2a2a2;
 		border-radius: 0;
-		color: #a2a2a2;
+		background-color:#444;
 	}
 	.vider .ico ul li:hover{
 		background-color: #333;
@@ -874,6 +877,8 @@
 		text-align: center;
 		right: 2%;
 		margin-top: 30px;
+		overflow: auto;
+		height: 682px;
 	}
 	.vider .gal_2 h3{
 		padding-bottom: 30px;
@@ -889,5 +894,47 @@
 		font-size: 14px;
 		padding-bottom: 30px;
 		color: #999;
-		
 	}
+	.vider .lef{
+		left: 2%;
+	}
+	.vider .rig{
+		float: right;
+	}
+	.vider .gal_2 .gall{
+		height: 60px;
+		width: 80px;
+		margin: 0 auto;
+		margin-top: 40px;
+	}	
+	.vider .jiu{
+		width: 18px;
+		float: left;
+		margin-right: 10px;	
+	}	
+	.vider .jiu span{
+		background: #000;
+	    float: left;
+	    height: 4px;
+	    width: 4px;
+	    margin-bottom: 1px;
+	    margin-left: 1px;
+	    -webkit-transition: all 0.3s ease;
+	    -moz-transition: all 0.3s ease;
+	    -o-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	    transition: all 0.3s ease;
+	}
+	.vider .gal_2 .prev:after{
+		content: "\2190";
+		float: left;
+		font-size: 100%;
+		line-height: 15px;	
+		margin-right: 10px;	
+	}
+	.vider .gal_2 .next:after{
+		content: "\2192";
+		float: left;
+		font-size: 100%;
+		line-height: 15px;
+	}	

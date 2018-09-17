@@ -53,6 +53,9 @@
 	.vider .logo{
 		width: 60%;
 	}
+	.vider .nologo{
+		width: 60%;
+	}	
 	.vider .ban{
 		top: 10%;
 	}
@@ -80,5 +83,22 @@
 	}
 	.vider .bac{
 		background-size: cover;
+	}
+	.vider .notop .menu_2 span{
+		background-color: #000;
+	}
+	.vider .gal_1{
+		width: 90%;
+		margin: 0 auto;
+		padding-right: 0;
+		float: none;
+	}
+	.vider .gal_2{
+		width: 90%;
+		position: static;
+		margin: 0 auto;
+		overflow: visible;
+		height: 100%;
+		padding-bottom: 40px;
 	}
 }

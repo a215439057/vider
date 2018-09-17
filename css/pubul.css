@@ -1,8 +1,8 @@
 @media (max-width: 1280px)  {
-	.vider .top{
+	.vider .top,.notop{
 		height:80px;
 	}
-	.vider .logo{
+	.vider .logo,.nologo{
 		margin-right: 2%;
 		font-size: 20px;
 		padding-top: 4px;
