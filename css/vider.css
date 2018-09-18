@@ -938,3 +938,62 @@
 		font-size: 100%;
 		line-height: 15px;
 	}	
+	.vider .new{
+		width: 60%;
+		margin: 0 auto;
+		padding-bottom: 60px;
+	}
+	.vider .new_1{
+		width: 70%;	
+		padding-bottom: 60px;
+		border-bottom:3px solid #eee;		
+		margin-bottom: 30px;
+	}
+	.vider .new_1 img{
+		width: 100%;
+	}
+	.vider .new_1 img,h3,h4,p{
+		padding-bottom: 30px;
+	}
+	.vider .new_1 h4{
+		font-weight: 400;
+	}
+	.vider .new_1 h3{
+		font-size: 1.6rem;
+	}
+	.vider .new_1 p{
+		font-size: 0.9rem;
+		line-height: 1.4rem;
+	}
+	.vider .new_1 .more{
+		padding:8px;
+		border-radius:0;
+		font-size: 0.8rem;
+	}
+	.vider .but{
+		width: 35px;
+	    height: 35px;
+	    line-height: 35px;
+	    margin: 0 16px 0px 0px;
+	    display: inline-block;
+	    box-sizing: border-box;
+	    padding:0;
+	    border:none;   
+	    align-items:start;
+	    text-align: center;
+	    font-size:0.9rem;
+	}
+	.hui{
+		background: #efefef;
+		cursor: pointer;
+	}
+	.bla{
+		background: #000;
+		color: #fff;
+		cursor: auto;
+	}
+	.vider .new .new_1 h5{
+		text-align: left;
+		font-size: 1.1rem;
+		font-weight: 600;
+	}

@@ -100,3 +100,18 @@ window.onscroll=function()
 	}	
 
 }
+function hui_1(){
+	document.getElementById('ne_1').style.display="block";
+	document.getElementById('ne_2').style.display="none";
+	document.getElementById('ne_3').style.display="none";
+}
+function hui_2(){
+	document.getElementById('ne_1').style.display="none";
+	document.getElementById('ne_2').style.display="block";
+	document.getElementById('ne_3').style.display="none";
+}
+function hui_3(){
+	document.getElementById('ne_1').style.display="none";
+	document.getElementById('ne_2').style.display="none";
+	document.getElementById('ne_3').style.display="block";
+}
