@@ -100,18 +100,515 @@ window.onscroll=function()
 	}	
 
 }
+// news
+
 function hui_1(){
 	document.getElementById('ne_1').style.display="block";
 	document.getElementById('ne_2').style.display="none";
 	document.getElementById('ne_3').style.display="none";
 }
+
 function hui_2(){
 	document.getElementById('ne_1').style.display="none";
 	document.getElementById('ne_2').style.display="block";
 	document.getElementById('ne_3').style.display="none";
 }
+
 function hui_3(){
 	document.getElementById('ne_1').style.display="none";
 	document.getElementById('ne_2').style.display="none";
 	document.getElementById('ne_3').style.display="block";
+}
+
+// all
+ 
+function alll(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="block";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="block";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="block";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="block";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="block";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="block";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="block";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="block";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="block";	
+		}
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="block";	
+		}		
+		theatret(0);	
+}
+
+function brand(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="block";	
+		}		
+		theatret(1);	
+}
+
+function company(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="block";	
+		}		
+		theatret(2);		
+}
+ 
+function concerts(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="block";	
+		}		
+		theatret(3);	
+}
+
+function flying(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="block";	
+		}		
+		theatret(4);	
+}
+
+function livem(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="block";	
+		}		
+		theatret(5);
+}
+
+function lives(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="block";	
+		}		
+		theatret(6);
+}
+
+function major(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="block";	
+		}		
+		theatret(7);
+}
+
+function opening(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="block";	
+		}		
+		theatret(8);
+}
+
+function our(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}		
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="none";	
+		}
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="block";	
+		}		
+		theatret(9);
+}
+
+function theatre(){
+	var brand = document.querySelectorAll(".brand");
+	var company = document.querySelectorAll(".company");
+	var concerts = document.querySelectorAll(".concerts");
+	var flying = document.querySelectorAll(".flying");
+	var livem = document.querySelectorAll(".livem");
+	var lives = document.querySelectorAll(".lives");
+	var major = document.querySelectorAll(".major");
+	var opening = document.querySelectorAll(".opening");
+	var our = document.querySelectorAll(".our");
+	var theatre = document.querySelectorAll(".theatre");
+		for (var i = 0; i < brand.length; i++) {
+			brand[i].style.display="none";
+		}
+		for (var i = 0; i < company.length; i++) {
+			company[i].style.display="none";
+		}
+		for (var i = 0; i < concerts.length; i++) {
+			concerts[i].style.display="none";
+		}
+		for (var i = 0; i < flying.length; i++) {
+			flying[i].style.display="none";
+		}
+		for (var i = 0; i < livem.length; i++) {
+			livem[i].style.display="none";
+		}
+		for (var i = 0; i < lives.length; i++) {
+			lives[i].style.display="none";
+		}
+		for (var i = 0; i < major.length; i++) {
+			major[i].style.display="none";
+		}
+		for (var i = 0; i < opening.length; i++) {
+			opening[i].style.display="none";
+		}		
+		for (var i = 0; i < our.length; i++) {
+			our[i].style.display="none";	
+		}
+		for (var i = 0; i < theatre.length; i++) {
+			theatre[i].style.display="block";	
+		}		
+		theatret(10);
+}
+function theatret(fx){
+	var neli = document.getElementById('ne_1').getElementsByTagName('button');
+	for (var z = 0; z < neli.length; z++) {
+				neli[z].style.border="medium none";
+		}
+	neli[fx].style.border="1px solid #000";	
 }

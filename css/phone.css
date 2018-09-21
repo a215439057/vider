@@ -107,4 +107,7 @@
 	.vider .new_1{
 		width: 100%;
 	}
+	.vider .view .view_2 ul li{
+		width: 80%;
+	}	
 }

@@ -62,4 +62,11 @@
 	.vider .wpi .wep .wpie{
 		padding-top: 0;
 	}
+	.vider .view .view_1,.view_2{
+		width: 98%;
+	}
+	.vider .view .view_2 ul li{
+		width: 31%;
+		padding-right: 20px;
+	}
 }

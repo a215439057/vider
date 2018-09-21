@@ -1031,3 +1031,44 @@
 	.vider .new .new_1 h5 span{
 		font-weight: normal;
 	}
+	.vider .view {
+		width: 100%;
+		text-align: center;
+	}
+	.vider .view .view_1{
+		width: 96%;
+		margin: 0 auto;
+		padding-bottom: 40px;
+	}	
+	.vider .view .view_1 ul li{
+		float: left;
+		padding-right: 20px;		
+	}
+	.vider .view .but{
+		background-color: #fff;
+		width: 100%;
+		font-size: 0.8rem;
+		cursor: pointer;
+		text-align: center;
+	}
+	.vider .view .view_2{
+		margin-top: 20px;
+		width: 96%;
+		margin: 0 auto;
+	}
+	.vider .view .view_2 ul li{
+		float: left;
+		padding-right: 40px;
+		padding-bottom: 40px;
+		width: 22%;
+		height: 222px;
+	    -webkit-transition: all 0.3s ease;
+	    -moz-transition: all 0.3s ease;
+	    -o-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	    transition: all 0.3s ease;		
+	}
+	.vider .view .view_2 ul li img{
+		width: 100%;
+		height: 100%;
+	}
