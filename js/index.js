@@ -123,7 +123,7 @@ function hui_3(){
 // all
  
 function alll(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -160,14 +160,14 @@ function alll(){
 		for (var i = 0; i < theatre.length; i++) {
 			theatre[i].style.display="block";	
 		}
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="block";	
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="block";	
 		}		
 		theatret(0);	
 }
 
-function brand(){
-	var brand = document.querySelectorAll(".brand");
+function brandd(){
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -204,14 +204,14 @@ function brand(){
 		for (var i = 0; i < theatre.length; i++) {
 			theatre[i].style.display="none";	
 		}
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="block";	
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="block";	
 		}		
 		theatret(1);	
 }
 
 function company(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -221,8 +221,8 @@ function company(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < concerts.length; i++) {
 			concerts[i].style.display="none";
@@ -255,7 +255,7 @@ function company(){
 }
  
 function concerts(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -265,8 +265,8 @@ function concerts(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < company.length; i++) {
 			company[i].style.display="none";
@@ -299,7 +299,7 @@ function concerts(){
 }
 
 function flying(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -309,8 +309,8 @@ function flying(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < company.length; i++) {
 			company[i].style.display="none";
@@ -343,7 +343,7 @@ function flying(){
 }
 
 function livem(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -353,8 +353,8 @@ function livem(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < company.length; i++) {
 			company[i].style.display="none";
@@ -387,7 +387,7 @@ function livem(){
 }
 
 function lives(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -397,8 +397,8 @@ function lives(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < company.length; i++) {
 			company[i].style.display="none";
@@ -431,7 +431,7 @@ function lives(){
 }
 
 function major(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -441,8 +441,8 @@ function major(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < company.length; i++) {
 			company[i].style.display="none";
@@ -475,7 +475,7 @@ function major(){
 }
 
 function opening(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -485,8 +485,8 @@ function opening(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < company.length; i++) {
 			company[i].style.display="none";
@@ -519,7 +519,7 @@ function opening(){
 }
 
 function our(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -529,8 +529,8 @@ function our(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < company.length; i++) {
 			company[i].style.display="none";
@@ -563,7 +563,7 @@ function our(){
 }
 
 function theatre(){
-	var brand = document.querySelectorAll(".brand");
+	var brandd = document.querySelectorAll(".brandd");
 	var company = document.querySelectorAll(".company");
 	var concerts = document.querySelectorAll(".concerts");
 	var flying = document.querySelectorAll(".flying");
@@ -573,8 +573,8 @@ function theatre(){
 	var opening = document.querySelectorAll(".opening");
 	var our = document.querySelectorAll(".our");
 	var theatre = document.querySelectorAll(".theatre");
-		for (var i = 0; i < brand.length; i++) {
-			brand[i].style.display="none";
+		for (var i = 0; i < brandd.length; i++) {
+			brandd[i].style.display="none";
 		}
 		for (var i = 0; i < company.length; i++) {
 			company[i].style.display="none";
